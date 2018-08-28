@@ -20,12 +20,10 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
 
+    #PagesAPP
+    path('pages/', include('pages.urls')),
+    path('pages/', include('pages.urls')),
 
-
-
-
-    #HomePage Defaults
-    path('/', include('pages.urls')),
-    path('', include('pages.urls')),
-
+    #posts_mb
+    path('posts/', include('posts_mb.urls')),
 ]
