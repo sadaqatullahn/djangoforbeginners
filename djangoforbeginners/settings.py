@@ -26,7 +26,7 @@ SECRET_KEY = '8-!qnm&mkx38%yma376rfpmd$&@da3vq=67+7m(8-j4nkx2g&4'
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+    
 
 # Application definition
 
