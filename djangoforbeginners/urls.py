@@ -26,4 +26,9 @@ urlpatterns = [
 
     #posts_mb
     path('posts', include('posts_mb.urls')),
+    path('posts/', include('posts_mb.urls')),
+
+    #blog_ch5
+    path('blog', include('blog_ch5.urls')),
+    path('blog/', include('blog_ch5.urls')),
 ]
