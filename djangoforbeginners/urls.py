@@ -25,5 +25,5 @@ urlpatterns = [
     path('pages/', include('pages.urls')),
 
     #posts_mb
-    path('posts/', include('posts_mb.urls')),
+    path('posts', include('posts_mb.urls')),
 ]
